@@ -17,20 +17,20 @@ To use other forwarded shells you have to edit the script to change the url and 
 
 > You can use this script in all the unix OS with python
 ```sh
-git clone https://github.com/D3Ext/DFShell
+git clone https://github.com/trhacknon/DFShell
 cd DFShell
 pip3 install -r requirements
 ```
 
 > One-liner
 ```sh
-git clone https://github.com/D3Ext/DFShell && cd DFShell && pip3 install -r requirements
+git clone https://github.com/trhacknon/DFShell && cd DFShell && pip3 install -r requirements
 ```
 
 ## Usage:
 
 It's simple, you pass the url of a webshell and the parameter that executes commands.
-I recommend you the most simple [webshell](https://github.com/D3Ext/DFShell/blob/main/webshell.php)
+I recommend you the most simple [webshell](https://github.com/trhacknon/DFShell/blob/main/webshell.php)
 
 ```sh
 python3 DFShell.py -u http://10.10.10.10/webshell.php -p cmd
@@ -38,7 +38,7 @@ python3 DFShell.py -u http://10.10.10.10/webshell.php -p cmd
 
 ## Demo:
 
-<img src="https://raw.githubusercontent.com/D3Ext/DFShell/main/images/DFShell.png">
+<img src="https://raw.githubusercontent.com/trhacknon/DFShell/main/images/DFShell.png">
 
 **If you consider this project has been useful, I would really appreciate supporting me by giving this repo a star or buying me a coffee.**
 
